@@ -28,6 +28,8 @@ func main() {
 			fmt.Print("Fizz\n")
 		} else if divisibleBy5 {
 			fmt.Print("Buzz")
+		} else {
+			fmt.Print(i, "\n")
 		}
 	}
 }
